@@ -1,1 +1,2 @@
-# University-Practice-News-Aggregator
+# News Aggregator
+Іваненко Богдан
