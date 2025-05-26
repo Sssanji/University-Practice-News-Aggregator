@@ -11,7 +11,7 @@ app = FastAPI()
 # Додамо CORS (поки що для localhost)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:8001"],  # фронтенд на 8001
+    allow_origins=["http://127.0.0.1:8001"],  # фронтенд на 8001
     allow_methods=["*"],
     allow_headers=["*"],
 )
